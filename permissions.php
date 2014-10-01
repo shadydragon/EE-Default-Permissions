@@ -10,7 +10,7 @@
 				echo ($success? 'Success' : 'Failed') . '</p>';
 			}
 
-			$prefix = "control-panel";
+			$prefix = "system";
 
 			if (file_exists($prefix . '/')) {
 				echo "Found " . $prefix;
